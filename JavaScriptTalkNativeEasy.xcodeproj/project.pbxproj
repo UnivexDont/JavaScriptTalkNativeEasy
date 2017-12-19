@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E10330F1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E10330E1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.m */; };
+		0E76E5591FE20D9700168684 /* index_wk.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E76E5581FE20D9700168684 /* index_wk.html */; };
+		0EDD5E561FE1173F007D2DD0 /* WKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD5E551FE1173F007D2DD0 /* WKViewController.m */; };
+		71ADEFA01FDBE6CC004DF42A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADEF9F1FDBE6CC004DF42A /* AppDelegate.m */; };
+		71ADEFA31FDBE6CC004DF42A /* JSTNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADEFA21FDBE6CC004DF42A /* JSTNViewController.m */; };
+		71ADEFA61FDBE6CC004DF42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ADEFA41FDBE6CC004DF42A /* Main.storyboard */; };
+		71ADEFA81FDBE6CC004DF42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71ADEFA71FDBE6CC004DF42A /* Assets.xcassets */; };
+		71ADEFAB1FDBE6CC004DF42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ADEFA91FDBE6CC004DF42A /* LaunchScreen.storyboard */; };
+		71ADEFAE1FDBE6CC004DF42A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADEFAD1FDBE6CC004DF42A /* main.m */; };
+		71ADEFBB1FDC276A004DF42A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 71ADEFBA1FDC276A004DF42A /* index.html */; };
+		71F649D31FDE3F7E006815C2 /* JavaScriptTalkNativeEasy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F649D21FDE3F7E006815C2 /* JavaScriptTalkNativeEasy.m */; };
+		71F649D61FDEA858006815C2 /* JavaScriptTalkNativeMethodHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F649D51FDEA858006815C2 /* JavaScriptTalkNativeMethodHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E10330D1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScriptTalkWKNativeEasy.h; sourceTree = "<group>"; };
+		0E10330E1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptTalkWKNativeEasy.m; sourceTree = "<group>"; };
+		0E76E5581FE20D9700168684 /* index_wk.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index_wk.html; sourceTree = "<group>"; };
+		0EDD5E541FE1173F007D2DD0 /* WKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKViewController.h; sourceTree = "<group>"; };
+		0EDD5E551FE1173F007D2DD0 /* WKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKViewController.m; sourceTree = "<group>"; };
+		71ADEF9B1FDBE6CC004DF42A /* JavaScriptTalkNativeEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptTalkNativeEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71ADEF9E1FDBE6CC004DF42A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71ADEF9F1FDBE6CC004DF42A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71ADEFA11FDBE6CC004DF42A /* JSTNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSTNViewController.h; sourceTree = "<group>"; };
+		71ADEFA21FDBE6CC004DF42A /* JSTNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSTNViewController.m; sourceTree = "<group>"; };
+		71ADEFA51FDBE6CC004DF42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71ADEFA71FDBE6CC004DF42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71ADEFAA1FDBE6CC004DF42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71ADEFAC1FDBE6CC004DF42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71ADEFAD1FDBE6CC004DF42A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71ADEFBA1FDC276A004DF42A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		71ADEFBC1FDD1820004DF42A /* JavaScriptTalkNativeEasyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScriptTalkNativeEasyProtocol.h; sourceTree = "<group>"; };
+		71ADEFBF1FDE36DA004DF42A /* JavaScriptTalkNativeEasy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScriptTalkNativeEasy.h; sourceTree = "<group>"; };
+		71F649D21FDE3F7E006815C2 /* JavaScriptTalkNativeEasy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptTalkNativeEasy.m; sourceTree = "<group>"; };
+		71F649D41FDEA858006815C2 /* JavaScriptTalkNativeMethodHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScriptTalkNativeMethodHandler.h; sourceTree = "<group>"; };
+		71F649D51FDEA858006815C2 /* JavaScriptTalkNativeMethodHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptTalkNativeMethodHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71ADEF981FDBE6CC004DF42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71ADEF921FDBE6CC004DF42A = {
+			isa = PBXGroup;
+			children = (
+				71ADEFB81FDC23C6004DF42A /* Source */,
+				71ADEF9D1FDBE6CC004DF42A /* JavaScriptTalkNativeEasy */,
+				71ADEF9C1FDBE6CC004DF42A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71ADEF9C1FDBE6CC004DF42A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71ADEF9B1FDBE6CC004DF42A /* JavaScriptTalkNativeEasy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71ADEF9D1FDBE6CC004DF42A /* JavaScriptTalkNativeEasy */ = {
+			isa = PBXGroup;
+			children = (
+				0E76E5581FE20D9700168684 /* index_wk.html */,
+				71ADEFBA1FDC276A004DF42A /* index.html */,
+				71ADEF9E1FDBE6CC004DF42A /* AppDelegate.h */,
+				71ADEF9F1FDBE6CC004DF42A /* AppDelegate.m */,
+				71ADEFA11FDBE6CC004DF42A /* JSTNViewController.h */,
+				71ADEFA21FDBE6CC004DF42A /* JSTNViewController.m */,
+				71ADEFA41FDBE6CC004DF42A /* Main.storyboard */,
+				71ADEFA71FDBE6CC004DF42A /* Assets.xcassets */,
+				71ADEFA91FDBE6CC004DF42A /* LaunchScreen.storyboard */,
+				71ADEFAC1FDBE6CC004DF42A /* Info.plist */,
+				71ADEFAD1FDBE6CC004DF42A /* main.m */,
+				0EDD5E541FE1173F007D2DD0 /* WKViewController.h */,
+				0EDD5E551FE1173F007D2DD0 /* WKViewController.m */,
+			);
+			path = JavaScriptTalkNativeEasy;
+			sourceTree = "<group>";
+		};
+		71ADEFB81FDC23C6004DF42A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				71ADEFB91FDC23C6004DF42A /* Core */,
+			);
+			name = Source;
+			path = JavaScriptTalkNativeEasy/Source;
+			sourceTree = "<group>";
+		};
+		71ADEFB91FDC23C6004DF42A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				71ADEFBC1FDD1820004DF42A /* JavaScriptTalkNativeEasyProtocol.h */,
+				71F649D41FDEA858006815C2 /* JavaScriptTalkNativeMethodHandler.h */,
+				71F649D51FDEA858006815C2 /* JavaScriptTalkNativeMethodHandler.m */,
+				71ADEFBF1FDE36DA004DF42A /* JavaScriptTalkNativeEasy.h */,
+				71F649D21FDE3F7E006815C2 /* JavaScriptTalkNativeEasy.m */,
+				0E10330D1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.h */,
+				0E10330E1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71ADEF9A1FDBE6CC004DF42A /* JavaScriptTalkNativeEasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71ADEFB11FDBE6CD004DF42A /* Build configuration list for PBXNativeTarget "JavaScriptTalkNativeEasy" */;
+			buildPhases = (
+				71ADEF971FDBE6CC004DF42A /* Sources */,
+				71ADEF981FDBE6CC004DF42A /* Frameworks */,
+				71ADEF991FDBE6CC004DF42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavaScriptTalkNativeEasy;
+			productName = JavaScriptTalkNativeEasy;
+			productReference = 71ADEF9B1FDBE6CC004DF42A /* JavaScriptTalkNativeEasy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71ADEF931FDBE6CC004DF42A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Donter;
+				TargetAttributes = {
+					71ADEF9A1FDBE6CC004DF42A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71ADEF961FDBE6CC004DF42A /* Build configuration list for PBXProject "JavaScriptTalkNativeEasy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71ADEF921FDBE6CC004DF42A;
+			productRefGroup = 71ADEF9C1FDBE6CC004DF42A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71ADEF9A1FDBE6CC004DF42A /* JavaScriptTalkNativeEasy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71ADEF991FDBE6CC004DF42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E76E5591FE20D9700168684 /* index_wk.html in Resources */,
+				71ADEFAB1FDBE6CC004DF42A /* LaunchScreen.storyboard in Resources */,
+				71ADEFBB1FDC276A004DF42A /* index.html in Resources */,
+				71ADEFA81FDBE6CC004DF42A /* Assets.xcassets in Resources */,
+				71ADEFA61FDBE6CC004DF42A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71ADEF971FDBE6CC004DF42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDD5E561FE1173F007D2DD0 /* WKViewController.m in Sources */,
+				71ADEFA31FDBE6CC004DF42A /* JSTNViewController.m in Sources */,
+				71F649D61FDEA858006815C2 /* JavaScriptTalkNativeMethodHandler.m in Sources */,
+				0E10330F1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.m in Sources */,
+				71ADEFAE1FDBE6CC004DF42A /* main.m in Sources */,
+				71ADEFA01FDBE6CC004DF42A /* AppDelegate.m in Sources */,
+				71F649D31FDE3F7E006815C2 /* JavaScriptTalkNativeEasy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71ADEFA41FDBE6CC004DF42A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71ADEFA51FDBE6CC004DF42A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71ADEFA91FDBE6CC004DF42A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71ADEFAA1FDBE6CC004DF42A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71ADEFAF1FDBE6CD004DF42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71ADEFB01FDBE6CD004DF42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71ADEFB21FDBE6CD004DF42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JavaScriptTalkNativeEasy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Donter.JavaScriptTalkNativeEasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71ADEFB31FDBE6CD004DF42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JavaScriptTalkNativeEasy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Donter.JavaScriptTalkNativeEasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71ADEF961FDBE6CC004DF42A /* Build configuration list for PBXProject "JavaScriptTalkNativeEasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71ADEFAF1FDBE6CD004DF42A /* Debug */,
+				71ADEFB01FDBE6CD004DF42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71ADEFB11FDBE6CD004DF42A /* Build configuration list for PBXNativeTarget "JavaScriptTalkNativeEasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71ADEFB21FDBE6CD004DF42A /* Debug */,
+				71ADEFB31FDBE6CD004DF42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71ADEF931FDBE6CC004DF42A /* Project object */;
+}
