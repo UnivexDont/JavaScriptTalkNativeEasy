@@ -1,3 +1,4 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![pod](https://img.shields.io/badge/pod-1.0.0-blue.svg)]() [![platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]() [![Email](https://img.shields.io/badge/email-winerdt@163.com-orange.svg?style=social)]()
 
