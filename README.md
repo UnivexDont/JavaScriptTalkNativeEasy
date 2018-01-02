@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![pod](https://img.shields.io/badge/pod-1.0.0-blue.svg)]() [![platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]() [![Email](https://img.shields.io/badge/email-winerdt@163.com-orange.svg?style=social)]()
 
- JavaScriptTalkNativeEasy 是一个iOS平台用于Obj-C和JavaScript交互的库，此库是基于 Apple 的JavaScriptCore 、 WebKit 、 runtime进行封装的。
+ JavaScriptTalkNativeEasy 是一个iOS平台用于Obj-C和JavaScript交互的库，此库是基于 Apple 的JavaScriptCore 、 WebKit 、 runtime进行封装的。
 
 # 通过pod进行安装
 
