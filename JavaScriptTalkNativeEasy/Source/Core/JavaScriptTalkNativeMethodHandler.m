@@ -87,7 +87,8 @@
     
     switch (*cType) {
         case '@':{
-            id value = jsvalue;
+            __autoreleasing id value = nil;
+            value = jsvalue;
             if (value) {
                 [invocation setArgument:&value atIndex:idx];
             }
@@ -154,6 +155,55 @@
         default:
             break;
     }
+}
+
++(id)getReturnValue:(Method) method invocation:(NSInvocation *)invocation{
+    char *returnCType =  method_copyReturnType(method);
+    switch (*returnCType) {
+        case '@':{
+            __autoreleasing id returnValue = nil;
+            [invocation getReturnValue:&returnValue];
+            free(returnCType);
+            returnCType = nil;
+            return returnValue;
+        }
+        case 'i':
+        case 'l':
+        case 'q':
+        case 'L':
+        case 'Q':
+        case 's':
+        case 'C':
+        case 'I':
+        case 'c':
+        case 'S':{
+            long long returnValue;
+            [invocation getReturnValue:&returnValue];
+            free(returnCType);
+            returnCType = nil;
+            return [NSNumber numberWithLongLong:returnValue];
+        }break;
+        case 'f':
+        case 'd':{
+            double returnValue;
+            [invocation getReturnValue:&returnValue];
+            free(returnCType);
+            returnCType = nil;
+            return [NSNumber numberWithDouble:returnValue];
+        }break;
+        case 'B':{
+            BOOL returnValue;
+            [invocation getReturnValue:&returnValue];
+            free(returnCType);
+            returnCType = nil;
+            return returnValue?@"true":@"false";
+        }
+        default:
+            free(returnCType);
+            returnCType = nil;
+            return nil;
+    }
+    
 }
 
 +(NSArray *)allDictionaryType{

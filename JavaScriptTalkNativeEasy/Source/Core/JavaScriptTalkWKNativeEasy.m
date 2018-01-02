@@ -86,7 +86,7 @@
     if (selectorName) {
         SEL selector = NSSelectorFromString(selectorName);
         NSMethodSignature *signature = [[_delegate class] instanceMethodSignatureForSelector:selector];
-        id returnValue;
+        
         if (signature) {
             
             Method method = class_getInstanceMethod([_delegate class], selector);
@@ -101,14 +101,31 @@
             }
             [invocation setSelector:selector];
             [invocation invokeWithTarget:_delegate];
-            [invocation getReturnValue:&returnValue];
-            
+            id returnValue = [JavaScriptTalkNativeMethodHandler getReturnValue:method invocation:invocation];
+
             if (jsCallBack && returnValue) {
-                [_webView evaluateJavaScript:[NSString stringWithFormat:@"%@('%@')",jsCallBack,returnValue] completionHandler:^(id _Nullable response, NSError * _Nullable error) {
+                NSString* jsEvaluateString;
+                if ([[JavaScriptTalkNativeMethodHandler allArrayType] containsObject:NSStringFromClass([returnValue class])] ||
+                    [[JavaScriptTalkNativeMethodHandler allDictionaryType] containsObject:NSStringFromClass([returnValue class])]) {
+                    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:returnValue options:NSJSONWritingPrettyPrinted error:nil];
+                    NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+                    if (jsonString) {
+                        jsEvaluateString = [NSString stringWithFormat:@"%@(%@)",jsCallBack,jsonString];
+                    }
+                }
+                else{
+                    jsEvaluateString = [NSString stringWithFormat:@"%@(\"%@\")",jsCallBack,returnValue];
+                }
+                [_webView evaluateJavaScript:jsEvaluateString completionHandler:^(id _Nullable response, NSError * _Nullable error) {
+                    
                 }];
+
             }
         }
         
+    }
+    if ([_smhDelegate respondsToSelector:@selector(userContentController:didReceiveScriptMessage:)]) {
+        [_smhDelegate performSelector:@selector(userContentController:didReceiveScriptMessage:) withObject:userContentController withObject:message];
     }
 
 }
@@ -122,10 +139,8 @@ void _handleJSArgument(id arguments,Method method, NSInvocation *invocation){
     if (argmnetsCount == 3) {
         char * cType = method_copyArgumentType(method, 2);
         [JavaScriptTalkNativeMethodHandler wkAddArgument:arguments type:cType toInvocation:invocation atIndex:2];
-        if (cType) {
-            free(cType);
-            cType = NULL;
-        }
+        free(cType);
+        cType = NULL;
     }else{
         _handleMutipleArguments(arguments, method, invocation);
     }

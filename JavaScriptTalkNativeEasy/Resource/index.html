@@ -34,10 +34,12 @@
     <h1> Demo</h1>
     <script>
         function test() {
-            var tem = testMethod(true);
-            document.write(tem);
-
-            // document.write("xxxxxxx");
+            
+            var userInfo = getUserInfo('Hello Native!!!');
+            
+            document.write('Name:'+userInfo.name);
+            document.write('<br>');
+            document.write('Age:'+userInfo.age);
 
         }
     </script>

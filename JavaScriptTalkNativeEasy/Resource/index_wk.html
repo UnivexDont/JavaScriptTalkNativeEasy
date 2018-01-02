@@ -33,14 +33,19 @@
 <body>
     <h1> Demo</h1>
     <script>
+        
         function test() {
-            window.webkit.messageHandlers.showName.postMessage([1,'2',{'3':3}]);
+            window.webkit.messageHandlers.getUserInfo.postMessage({'message':'Hello Native!!!','callBackFromNative':'userInfo'});
 
         }
-    function callBack(name){
-        document.write(name);
-
-    }
+    
+        function userInfo(user){
+            document.write(user.name)
+            document.write('<br>')
+            document.write(user.age)
+            
+        }
+    
     </script>
     <div id='buttons'></div>
     <div id='log'></div>

@@ -80,7 +80,7 @@
                     }
                     
                     [invocation invokeWithTarget:strongSelf.delegate];
-                    [invocation getReturnValue:&returnValue];
+                    returnValue = [JavaScriptTalkNativeMethodHandler getReturnValue:method invocation:invocation];
                 }
                 return returnValue;
             };

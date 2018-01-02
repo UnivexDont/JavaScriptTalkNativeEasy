@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "JavaScriptTalkNativeEasyProtocol.h"
 
-@protocol webJSEasyProtocol<JavaScriptTalkNativeEasyProtocol>
--(NSString*)testMethod:(BOOL)string;
+@protocol WebJSEasyProtocol<JavaScriptTalkNativeEasyProtocol>
+-(NSDictionary *)getUserInfo:(NSString *)string;
 @end
 
-@interface JSTNViewController : UIViewController
+@interface JSTNEUIWebViewController : UIViewController
 
 
 @end

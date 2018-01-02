@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "JavaScriptTalkWKNativeEasy.h"
 
-@protocol wkWebJSEasyProtocol<JavaScriptTalkNativeEasyProtocol>
--(NSString*)showName:(BOOL)isTrue arg2:(NSNumber*)arg2;
+@protocol WKWebJSEasyProtocol<JavaScriptTalkNativeEasyProtocol>
+-(NSDictionary *)getUserInfo:(NSDictionary *)dic;
 @end
 
-@interface WKViewController : UIViewController
+@interface JSTNEWKWebViewController : UIViewController
 
 @end

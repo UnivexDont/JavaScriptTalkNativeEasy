@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0E10330F1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E10330E1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.m */; };
-		0E76E5591FE20D9700168684 /* index_wk.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E76E5581FE20D9700168684 /* index_wk.html */; };
-		0EDD5E561FE1173F007D2DD0 /* WKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD5E551FE1173F007D2DD0 /* WKViewController.m */; };
+		0E6FBF911FFB355B000A5B01 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBF861FFB355B000A5B01 /* index.html */; };
+		0E6FBF921FFB355B000A5B01 /* index_wk.html in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBF871FFB355B000A5B01 /* index_wk.html */; };
+		0E6FBF9D1FFB3571000A5B01 /* JSTNEWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FBF971FFB3571000A5B01 /* JSTNEWKWebViewController.m */; };
+		0E6FBF9E1FFB3571000A5B01 /* JSTNEUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FBF991FFB3571000A5B01 /* JSTNEUIWebViewController.m */; };
+		0E6FBF9F1FFB3571000A5B01 /* JSTNEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FBF9B1FFB3571000A5B01 /* JSTNEViewController.m */; };
 		71ADEFA01FDBE6CC004DF42A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADEF9F1FDBE6CC004DF42A /* AppDelegate.m */; };
-		71ADEFA31FDBE6CC004DF42A /* JSTNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADEFA21FDBE6CC004DF42A /* JSTNViewController.m */; };
 		71ADEFA61FDBE6CC004DF42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ADEFA41FDBE6CC004DF42A /* Main.storyboard */; };
 		71ADEFA81FDBE6CC004DF42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71ADEFA71FDBE6CC004DF42A /* Assets.xcassets */; };
 		71ADEFAB1FDBE6CC004DF42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ADEFA91FDBE6CC004DF42A /* LaunchScreen.storyboard */; };
 		71ADEFAE1FDBE6CC004DF42A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADEFAD1FDBE6CC004DF42A /* main.m */; };
-		71ADEFBB1FDC276A004DF42A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 71ADEFBA1FDC276A004DF42A /* index.html */; };
 		71F649D31FDE3F7E006815C2 /* JavaScriptTalkNativeEasy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F649D21FDE3F7E006815C2 /* JavaScriptTalkNativeEasy.m */; };
 		71F649D61FDEA858006815C2 /* JavaScriptTalkNativeMethodHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F649D51FDEA858006815C2 /* JavaScriptTalkNativeMethodHandler.m */; };
 /* End PBXBuildFile section */
@@ -24,20 +25,22 @@
 /* Begin PBXFileReference section */
 		0E10330D1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScriptTalkWKNativeEasy.h; sourceTree = "<group>"; };
 		0E10330E1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptTalkWKNativeEasy.m; sourceTree = "<group>"; };
-		0E76E5581FE20D9700168684 /* index_wk.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index_wk.html; sourceTree = "<group>"; };
-		0EDD5E541FE1173F007D2DD0 /* WKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKViewController.h; sourceTree = "<group>"; };
-		0EDD5E551FE1173F007D2DD0 /* WKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKViewController.m; sourceTree = "<group>"; };
+		0E6FBF861FFB355B000A5B01 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		0E6FBF871FFB355B000A5B01 /* index_wk.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index_wk.html; sourceTree = "<group>"; };
+		0E6FBF971FFB3571000A5B01 /* JSTNEWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTNEWKWebViewController.m; sourceTree = "<group>"; };
+		0E6FBF981FFB3571000A5B01 /* JSTNEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTNEViewController.h; sourceTree = "<group>"; };
+		0E6FBF991FFB3571000A5B01 /* JSTNEUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTNEUIWebViewController.m; sourceTree = "<group>"; };
+		0E6FBF9A1FFB3571000A5B01 /* JSTNEWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTNEWKWebViewController.h; sourceTree = "<group>"; };
+		0E6FBF9B1FFB3571000A5B01 /* JSTNEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTNEViewController.m; sourceTree = "<group>"; };
+		0E6FBF9C1FFB3571000A5B01 /* JSTNEUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTNEUIWebViewController.h; sourceTree = "<group>"; };
 		71ADEF9B1FDBE6CC004DF42A /* JavaScriptTalkNativeEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptTalkNativeEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71ADEF9E1FDBE6CC004DF42A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71ADEF9F1FDBE6CC004DF42A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71ADEFA11FDBE6CC004DF42A /* JSTNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSTNViewController.h; sourceTree = "<group>"; };
-		71ADEFA21FDBE6CC004DF42A /* JSTNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSTNViewController.m; sourceTree = "<group>"; };
 		71ADEFA51FDBE6CC004DF42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71ADEFA71FDBE6CC004DF42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71ADEFAA1FDBE6CC004DF42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71ADEFAC1FDBE6CC004DF42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71ADEFAD1FDBE6CC004DF42A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71ADEFBA1FDC276A004DF42A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		71ADEFBC1FDD1820004DF42A /* JavaScriptTalkNativeEasyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScriptTalkNativeEasyProtocol.h; sourceTree = "<group>"; };
 		71ADEFBF1FDE36DA004DF42A /* JavaScriptTalkNativeEasy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScriptTalkNativeEasy.h; sourceTree = "<group>"; };
 		71F649D21FDE3F7E006815C2 /* JavaScriptTalkNativeEasy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptTalkNativeEasy.m; sourceTree = "<group>"; };
@@ -56,6 +59,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E6FBF851FFB355B000A5B01 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0E6FBF861FFB355B000A5B01 /* index.html */,
+				0E6FBF871FFB355B000A5B01 /* index_wk.html */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0E6FBF961FFB3571000A5B01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E6FBF981FFB3571000A5B01 /* JSTNEViewController.h */,
+				0E6FBF9B1FFB3571000A5B01 /* JSTNEViewController.m */,
+				0E6FBF9C1FFB3571000A5B01 /* JSTNEUIWebViewController.h */,
+				0E6FBF991FFB3571000A5B01 /* JSTNEUIWebViewController.m */,
+				0E6FBF9A1FFB3571000A5B01 /* JSTNEWKWebViewController.h */,
+				0E6FBF971FFB3571000A5B01 /* JSTNEWKWebViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		71ADEF921FDBE6CC004DF42A = {
 			isa = PBXGroup;
 			children = (
@@ -76,19 +101,15 @@
 		71ADEF9D1FDBE6CC004DF42A /* JavaScriptTalkNativeEasy */ = {
 			isa = PBXGroup;
 			children = (
-				0E76E5581FE20D9700168684 /* index_wk.html */,
-				71ADEFBA1FDC276A004DF42A /* index.html */,
+				0E6FBF961FFB3571000A5B01 /* Controllers */,
+				0E6FBF851FFB355B000A5B01 /* Resource */,
 				71ADEF9E1FDBE6CC004DF42A /* AppDelegate.h */,
 				71ADEF9F1FDBE6CC004DF42A /* AppDelegate.m */,
-				71ADEFA11FDBE6CC004DF42A /* JSTNViewController.h */,
-				71ADEFA21FDBE6CC004DF42A /* JSTNViewController.m */,
 				71ADEFA41FDBE6CC004DF42A /* Main.storyboard */,
 				71ADEFA71FDBE6CC004DF42A /* Assets.xcassets */,
 				71ADEFA91FDBE6CC004DF42A /* LaunchScreen.storyboard */,
 				71ADEFAC1FDBE6CC004DF42A /* Info.plist */,
 				71ADEFAD1FDBE6CC004DF42A /* main.m */,
-				0EDD5E541FE1173F007D2DD0 /* WKViewController.h */,
-				0EDD5E551FE1173F007D2DD0 /* WKViewController.m */,
 			);
 			path = JavaScriptTalkNativeEasy;
 			sourceTree = "<group>";
@@ -174,9 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E76E5591FE20D9700168684 /* index_wk.html in Resources */,
+				0E6FBF921FFB355B000A5B01 /* index_wk.html in Resources */,
 				71ADEFAB1FDBE6CC004DF42A /* LaunchScreen.storyboard in Resources */,
-				71ADEFBB1FDC276A004DF42A /* index.html in Resources */,
+				0E6FBF911FFB355B000A5B01 /* index.html in Resources */,
 				71ADEFA81FDBE6CC004DF42A /* Assets.xcassets in Resources */,
 				71ADEFA61FDBE6CC004DF42A /* Main.storyboard in Resources */,
 			);
@@ -189,12 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EDD5E561FE1173F007D2DD0 /* WKViewController.m in Sources */,
-				71ADEFA31FDBE6CC004DF42A /* JSTNViewController.m in Sources */,
 				71F649D61FDEA858006815C2 /* JavaScriptTalkNativeMethodHandler.m in Sources */,
 				0E10330F1FE3A00B000B7339 /* JavaScriptTalkWKNativeEasy.m in Sources */,
 				71ADEFAE1FDBE6CC004DF42A /* main.m in Sources */,
+				0E6FBF9F1FFB3571000A5B01 /* JSTNEViewController.m in Sources */,
 				71ADEFA01FDBE6CC004DF42A /* AppDelegate.m in Sources */,
+				0E6FBF9E1FFB3571000A5B01 /* JSTNEUIWebViewController.m in Sources */,
+				0E6FBF9D1FFB3571000A5B01 /* JSTNEWKWebViewController.m in Sources */,
 				71F649D31FDE3F7E006815C2 /* JavaScriptTalkNativeEasy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

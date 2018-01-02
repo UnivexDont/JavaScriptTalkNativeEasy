@@ -11,6 +11,7 @@
 #import "JavaScriptTalkNativeEasyProtocol.h"
 
 @interface JavaScriptTalkWKNativeEasy : NSObject
-@property(weak,nonatomic)id<NSObject>delegate;
+@property(weak, nonatomic)id<NSObject>delegate;
+@property(weak, nonatomic)id<WKScriptMessageHandler>smhDelegate;
 +(instancetype)jsTNEasy:(WKWebView *)webView;
 @end

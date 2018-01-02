@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(void)addArgument:(JSValue * )jsvalue type:(const char *)cType toInvocation:(NSInvocation* )invocation atIndex:(unsigned int)idx;
 
 +(void)wkAddArgument:(id)jsvalue type:(const char *)cType toInvocation:(NSInvocation* )invocation atIndex:(unsigned int)idx;
++(id)getReturnValue:(Method) method invocation:(NSInvocation *)invocation;
 +(NSArray *)allDictionaryType;
 +(NSArray *)allArrayType;
 
