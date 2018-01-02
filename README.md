@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![pod](https://img.shields.io/badge/pod-1.0.0-blue.svg)]() [![platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]() [![Email](https://img.shields.io/badge/email-winerdt@163.com-orange.svg?style=social)]()
 
- JavaScriptTalkNativeEasy 是一个 iOS 平台用于 Objc 和 JavaScript 交互的库，此库是基于 Apple 的JavaScriptCore 、 WebKit 、 runtime 进行封装的。
+ JavaScriptTalkNativeEasy 是一个iOS平台用于Obj-C和JavaScript交互的库，此库是基于 Apple 的JavaScriptCore 、 WebKit 、 runtime进行封装的。
 
 # 通过pod进行安装
 
@@ -12,7 +12,7 @@
 ```
 
 
-# 在UIWebView中使用
+# 在UIWebView中使用
 
 JavaScript 中对应相关的代码。
 ```javascript
@@ -32,14 +32,14 @@ JavaScript 中对应相关的代码。
 #import "JavaScriptTalkNativeEasyProtocol.h"
 
 @protocol WebJSEasyProtocol<JavaScriptTalkNativeEasyProtocol>
--(NSDictionary *)getUserInfo:(NSString *)string;//和javaScript中对应的函数名一致。
+-(NSDictionary *)getUserInfo:(NSString *)string;//和javaScript中对应的函数名一致。
 @end
 
 @interface JSTNEUIWebViewController : UIViewController
 
 
 @end
-// WebJSEasyProtocol 协议必须继承JavaScriptTalkNativeEasyProtocol,此协议名称可以替换成您自己想要的，协议中的方法名必须和JavaScript端对应的要掉的函数名称一致。
+// WebJSEasyProtocol 协议必须继承JavaScriptTalkNativeEasyProtocol,此协议名称可以替换成您自己想要的，协议中的方法名必须和JavaScript端对应的要掉的函数名称一致。
 ```
 
 ```objc
@@ -80,7 +80,7 @@ JavaScript 中对应相关的代码。
 @end
 ```
 
-# 在WKWebView中使用
+# 在WKWebView中使用
 JavaScript 中对应相关的代码。
 ```javascript
    <script>
@@ -99,12 +99,12 @@ JavaScript 中对应相关的代码。
 ```
 ```objc
 @protocol WKWebJSEasyProtocol<JavaScriptTalkNativeEasyProtocol>
--(NSDictionary *)getUserInfo:(NSDictionary *)dic;   //和javaScript中对应的函数名一致。
+-(NSDictionary *)getUserInfo:(NSDictionary *)dic;   //和javaScript中对应的函数名一致。
 @end
 
 @interface JSTNEWKWebViewController : UIViewController
 @end
-// WKWebJSEasyProtocol 协议必须继承JavaScriptTalkNativeEasyProtocol,此协议名称可以替换成您自己想要的，协议中的方法名必须和JavaScript端对应的要掉的函数名称一致。
+// WKWebJSEasyProtocol 协议必须继承JavaScriptTalkNativeEasyProtocol,此协议名称可以替换成您自己想要的，协议中的方法名必须和JavaScript端对应的要掉的函数名称一致。
 ```
 ```objc
 @interface JSTNEWKWebViewController ()<WKScriptMessageHandler,WKNavigationDelegate,WKUIDelegate,WKWebJSEasyProtocol>
@@ -141,4 +141,4 @@ JavaScript 中对应相关的代码。
 @end
 ```
 
- 邮箱: [winerdt@163.com](winerdt@163.com)
+# 邮箱: [winerdt@163.com](winerdt@163.com)
