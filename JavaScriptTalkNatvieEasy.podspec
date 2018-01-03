@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/UnivexDont/UDConerTagView.git', :tag => "#{s.version}" }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'Source/Core/*.{h,m}'
+  s.source_files = 'JavaScriptTalkNativeEasy/Source/Core/*.{h,m}'
 
 end
