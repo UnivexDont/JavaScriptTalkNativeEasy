@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'JavaScriptTalkNatvieEasy'
+  s.name             = 'JavaScriptTalkNativeEasy'
   s.version          = '1.0.0'
   s.summary          = 'A library for objc and JavaScript'
   s.homepage         = 'https://github.com/UnivexDont/JavaScriptTalkNativeEasy'
