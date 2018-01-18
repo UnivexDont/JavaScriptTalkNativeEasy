@@ -106,7 +106,7 @@
         case 'c':
         case 'S':{
             long long value = 0;
-            if([[self allDictionaryType] containsObject:NSStringFromClass([jsvalue class])]){
+            if([[self allDictionaryType] containsObject:NSStringFromClass([jsvalue class])] || [jsvalue isKindOfClass:[NSDictionary class]]){
                 NSArray *allKeys = [jsvalue allKeys];
                 if (allKeys > 0) {
                     id firstValue = jsvalue[allKeys[0]];
@@ -122,7 +122,7 @@
         case 'f':
         case 'd':{
             double value = 0.0;
-            if([[self allDictionaryType] containsObject:NSStringFromClass([jsvalue class])]){
+            if([[self allDictionaryType] containsObject:NSStringFromClass([jsvalue class])] || [jsvalue isKindOfClass:[NSDictionary class]]){
                 NSArray *allKeys = [jsvalue allKeys];
                 if (allKeys > 0) {
                     id firstValue = jsvalue[allKeys[0]];
@@ -137,7 +137,7 @@
         }break;
         case 'B':{
             BOOL value = NO;
-            if([[self allDictionaryType] containsObject:NSStringFromClass([jsvalue class])]){
+            if([[self allDictionaryType] containsObject:NSStringFromClass([jsvalue class])] || [jsvalue isKindOfClass:[NSDictionary class]]){
                 NSArray *allKeys = [jsvalue allKeys];
                 if (allKeys > 0) {
                     id firstValue = jsvalue[allKeys[0]];

@@ -106,7 +106,7 @@
             if (jsCallBack && returnValue) {
                 NSString* jsEvaluateString;
                 if ([[JavaScriptTalkNativeMethodHandler allArrayType] containsObject:NSStringFromClass([returnValue class])] ||
-                    [[JavaScriptTalkNativeMethodHandler allDictionaryType] containsObject:NSStringFromClass([returnValue class])]) {
+                    [[JavaScriptTalkNativeMethodHandler allDictionaryType] containsObject:NSStringFromClass([returnValue class])] || [returnValue isKindOfClass:[NSArray class]] || [returnValue isKindOfClass:[NSDictionary class]]) {
                     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:returnValue options:NSJSONWritingPrettyPrinted error:nil];
                     NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
                     if (jsonString) {
@@ -184,7 +184,7 @@ void _handleMutipleArguments(id arguments, Method method, NSInvocation *invocati
 
 -(NSString *)_jsCallBackFromNatvie:(WKScriptMessage *)messge{
     
-    if ([NSStringFromClass([messge.body class]) isEqualToString:@"__NSFrozenDictionaryM"] || [[messge.body class] isKindOfClass:[NSDictionary class]]) {
+    if ([messge.body isKindOfClass:[NSDictionary class]]) {
         return messge.body[@"callBackFromNative"];
     }
     return nil;
